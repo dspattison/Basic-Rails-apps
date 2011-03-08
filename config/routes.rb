@@ -1,4 +1,8 @@
 BasicRailsApps::Application.routes.draw do
+  get "post/post"
+
+  get "post/list"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
